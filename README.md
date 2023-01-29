@@ -36,7 +36,7 @@ JMeter reports are located in <i>./jmeter/report</i> folder.
 
 ## Help
 
-**Generate JMeter reports**
+**JMeter reports**
 
 Example:
 
