@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTestsSuite">
+    <parameter name="username" value="admin"/>
+    <parameter name="password" value="password"/>
+    <parameter name="inputsStringValue" value="TESTTESTTEST"/>
+    <parameter name="inputsDescriptionValue" value="This is a description test message. Lorem ipsum..."/>
+    <parameter name="inputsIntegerValue" value="111"/>
+    <parameter name="inputsEmailValue" value="vahojag840@crtsec.com"/>
+    <parameter name="inputsPhoneValue" value="12312312312"/>
+    <test name="FirefoxTests">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="UserTests"/>
+            <class name="AdminTests"/>
+        </classes>
+    </test>
+    <test name="EdgeTests">
+        <parameter name="browser" value="Edge"/>
+        <classes>
+            <class name="UserTests"/>
+            <class name="AdminTests"/>
+        </classes>
+    </test>
+    <test name="ChromeTests">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="UserTests"/>
+            <class name="AdminTests"/>
+        </classes>
+    </test>
+
+</suite>
