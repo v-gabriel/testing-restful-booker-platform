@@ -27,7 +27,7 @@ Tested using REST get calls.
 
 **Reports**
 
-Automatic tests are generated using the [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/), located in 
+Automatic test reports are generated automatically using the [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/), located in 
 <i>./testp/target/surefire-reports</i>.
 
 JMeter reports are located in <i>./jmeter/report</i> folder.
