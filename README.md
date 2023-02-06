@@ -21,16 +21,13 @@ Tests both API response and UI.
 
 **JMeter stress tests**
 
-Tested using REST get calls.
+Tested using REST get calls (<i>./jmeter/api_stress_load_test.jmx</i>).
 
 <br>
 
 **Reports**
 
-Automatic test reports are generated automatically using the [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/), located in 
-<i>./testp/target/surefire-reports</i>.
-
-JMeter reports are located in <i>./jmeter/report</i> folder.
+Automatic test reports are generated automatically using the [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/) (<i>./testp/target/surefire-reports</i>).
 
 <br>
 
@@ -53,7 +50,7 @@ Structure:
 
 **Surefire reports**
 
-Surefire reports are generated automatically by running the following command in IDE terminal (using CTRL + ENTER)
+Surefire reports are generated automatically after running the tests in the IDE terminal (using CTRL + ENTER):
 
     mvn test
   
@@ -64,7 +61,7 @@ Surefire reports are generated automatically by running the following command in
 
 **Environment:** [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/#section=linux), [Apache JMeter](https://jmeter.apache.org/)
 
-**Languages:** Java
+**Languages:** [Java](https://www.java.com/en/)
 
 **Other:** [Maven](https://maven.apache.org/), [Selenium](https://www.selenium.dev/)
 
